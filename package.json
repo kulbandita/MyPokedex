@@ -1,0 +1,22 @@
+{
+  "name": "MyPokedex",
+  "version": "1.0.0",
+  "description": "MyPokedex for front techs homework #1",
+  "main": "index.html",
+  "scripts": {
+    "start": "node_modules/http-server/bin/http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kulbandita/MyPokedex.git"
+  },
+  "author": "Bandita Kulthammanon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kulbandita/MyPokedex/issues"
+  },
+  "homepage": "https://github.com/kulbandita/MyPokedex#readme",
+  "devDependencies": {
+    "http-server": "^0.9.0"
+  }
+}
