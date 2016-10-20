@@ -1,33 +1,32 @@
 {
   "name": "MyPokedex",
   "version": "1.0.0",
-  "description": "MyPokedex for front techs homework #1",
+  "description": "MyPokedex for front techs homework #3",
   "main": "index.html",
   "scripts": {
-    "build": "./node_modules/.bin/webpack --display-error-details",
-    "start": "./node_modules/.bin/webpack-dev-server --content-base dist",
-    "babel": "./node_modules/.bin/babel src -d dist"
+    "build": ".\\node_modules\\.bin\\webpack --display-error-details",
+    "start": ".\\node_modules\\.bin\\webpack-dev-server --content-base dist"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kulbandita/MyPokedex.git"
   },
-  "author": "Bandita Kulthammanon",
+  "author": "BK",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/kulbandita/MyPokedex/issues"
   },
   "homepage": "https://github.com/kulbandita/MyPokedex#readme",
   "devDependencies": {
-    "babel-cli": "^6.16.0",
     "babel-core": "^6.17.0",
     "babel-loader": "^6.2.5",
     "babel-preset-es2015": "^6.16.0",
-    "http-server": "^0.9.0",
+    "babel-preset-react": "^6.16.0",
     "webpack": "^1.13.2",
     "webpack-dev-server": "^1.16.2"
   },
   "dependencies": {
-    "axios": "^0.15.0"
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
   }
 }

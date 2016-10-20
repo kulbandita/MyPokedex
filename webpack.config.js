@@ -3,7 +3,7 @@ var path = require('path');
 
 var config = {
     entry: {
-        hello: path.join(__dirname, 'src', 'hello.js'),
+        hello: path.join(__dirname, 'src', 'pokedex.js'),
     },
     module: {
         loaders: [
@@ -12,14 +12,14 @@ var config = {
                 include: path.join(__dirname, 'src'),
                 loader: 'babel-loader',
                 query: {
-                    presets: ['es2015']
+                    presets: ['es2015', 'react']
                 }
             }
         ]
     },
     output: {
         path: path.join(__dirname, 'dist'),
-        filename: "hello.js"
+        filename: "pokedex.js"
     },
     devServer: {
         historyApiFallback: true,
